@@ -10,6 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a2c806407cfcd43f394472b4982fb87a, type: 3}
-  m_Name: New Question 1
+  m_Name: New Question
   m_EditorClassIdentifier: 
-  question: Enter new question here
+  question: "Jak si\u0119 nazywa podstawowy pistolet?"
+  answers:
+  - Ghost
+  - Classic
+  - Phantom
+  - Stinger
+  correctAnswerIndex: 1
