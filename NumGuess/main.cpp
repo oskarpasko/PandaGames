@@ -10,14 +10,14 @@ int main()
 
     int choice = 0;
 
-    cout << " ----- Witamy w NumberGuess! ----- " << endl << endl;
+    cout << " ----- Welcome in NumberGuess! ----- " << endl << endl;
 
-    cout << "Wybierz akcje:" << endl;
-    cout << "1. Graj (latwy)" << endl;
-    cout << "2. Graj (sredni)" << endl;
-    cout << "3. Graj (trudny)" << endl;
-    cout << "4. Zasady" << endl;
-    cout << "5. Wyjdz" << endl;
+    cout << "Choose Your Action:" << endl;
+    cout << "1. PLay (Easy)" << endl;
+    cout << "2. Play (Middle)" << endl;
+    cout << "3. Play (Hard)" << endl;
+    cout << "4. Rules!" << endl;
+    cout << "5. Exit" << endl;
 
 
     cin >> choice;
@@ -38,7 +38,7 @@ int main()
         case 5:
             exit(1);
         default:
-            cout << "Error 890";
+            cout << "Error 890!";
             break;
     }
 

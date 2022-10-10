@@ -12,23 +12,23 @@ void play(int minNumber, int maxNumber, int attempt)
     int random = minNumber + (rand() % maxNumber);
     int choice = 0;
 
-    cout << "Zgadnij liczbe z przedzialu od " << minNumber << " do " << maxNumber << endl << endl;
+    cout << "Choose number from " << minNumber << " to " << maxNumber << endl << endl;
 
     for(int i = 0 ; i < attempt ; i++)
     {
-        if(i == (attempt - 1)) cout << "To Twoj ostatni strzal!" << endl;
-        cout << "Wybierz liczbe: " ;
+        if(i == (attempt - 1)) cout << "This is Your last chance!" << endl;
+        cout << "Choose Youe number: " ;
         cin >> choice;
 
         if(choice == random)
         {
-            cout << endl << "Brawo, to ta liczba ktora wylosowalismy!"<<endl;
-            cout << "To byl Twoj " << i+1 << " strzal!" << endl;
+            cout << endl << "Bravo, You got this!"<<endl;
+            cout << "That was Your " << i+1 << " shoot!" << endl;
             break;
         } else if(choice > random){
-            cout << "Za duzo!" << endl << endl;
+            cout << "Too much!" << endl << endl;
         } else if(choice < random){
-            cout << "Za malo!" << endl << endl;
+            cout << "Too few!" << endl << endl;
         }
 
     }
