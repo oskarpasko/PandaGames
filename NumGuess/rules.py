@@ -6,3 +6,6 @@ def rules():
     """
 
     print(rules_text)
+
+if __name__ == '__main__':
+    rules()
