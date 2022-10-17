@@ -1,1 +1,2 @@
-print(' ----- CodeGuess soon here! -----')
+def codeguess_game():
+    print(' ----- CodeGuess soon here! -----')
