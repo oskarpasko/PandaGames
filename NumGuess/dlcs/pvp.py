@@ -1,1 +1,2 @@
-print(' ----- PvP DLC here soon! -----')
+def pvp_game():
+    print(' ----- PvP DLC here soon! -----')
