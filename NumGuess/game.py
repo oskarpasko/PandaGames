@@ -15,6 +15,6 @@ def game(min_num, max_num, attempt):
         else:
             print('Not enough!')
 
-        if(x == 3):
+        if(x == (attempt - 2)):
             print('This is Your last chance!')
         
