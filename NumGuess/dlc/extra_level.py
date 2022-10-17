@@ -2,9 +2,9 @@ import random
 
 def extra_level_game():
 
-    min_num = input('Choose Your minimal number')
-    max_num = input('Choose Your maximum number')
-    attempt = input('How many attempt do You want have?')
+    min_num = int(input('Choose Your minimal number'))
+    max_num = int(input('Choose Your maximum number'))
+    attempt = int(input('How many attempt do You want have?'))
 
     random_num = random.randint(min_num, max_num)
 
